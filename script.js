@@ -1,4 +1,4 @@
-function carInfo(){
-    let carModel="BMW";
-    let carYear=2017;
+function carInfo(model,year){
+    
+
 }
