@@ -14,5 +14,9 @@ let size=carList.length;
 document.getElementById("arrays").innerHTML = cars;
 document.getElementById("arrays1").innerHTML = size;
 
+function addCar(){
+  
+}
+
 
 
