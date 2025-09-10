@@ -5,3 +5,6 @@ const cars=["BMW","Volvo","Mazda"];
 let carList=[];
 carList[0]="BMW";
 carList[1]="Saab";
+
+
+let listCars= new Array["BMW","Saab"];
