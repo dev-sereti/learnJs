@@ -15,8 +15,9 @@ document.getElementById("arrays").innerHTML = cars;
 document.getElementById("arrays1").innerHTML = size;
 
 function addCar(){
-  
-}
+  listCars.push("Toyota")
+  document.getElementById("arrays2").innerHTML=listCars;
+};
 
 
 
