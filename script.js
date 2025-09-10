@@ -7,7 +7,9 @@ carList[0]="BMW";
 carList[1]="Saab";
 
 
-let listCars= new Array["BMW","Saab"];
+let listCars= new Array("BMW","Saab");
 
 
-document.getElementById("arrays").innerHTML.cars;
+document.getElementById("arrays").innerHTML = cars;
+
+
