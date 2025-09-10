@@ -8,3 +8,6 @@ carList[1]="Saab";
 
 
 let listCars= new Array["BMW","Saab"];
+
+
+document.getElementById("arrays").innerHTML.cars;
