@@ -22,3 +22,8 @@ console.log(Math.trunc("5.5"));   // Output: 5
 console.log(Math.trunc("abc"));   // Output: NaN
 
 
+/**Math.pow() */
+
+console.log(Math.pow(4,4));   // Output: 42
+console.log(Math.pow(42,84));   // Output: 42
+console.log(Math.pow(-2,4));   // Output: 42
