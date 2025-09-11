@@ -14,4 +14,11 @@ console.log(Math.ceil(-2.7));   // Output: -2 (rounds up towards zero)
 /* Math.trunc() */
 
 
+console.log(Math.trunc(42.84));   // Output: 42
+console.log(Math.trunc(-7.9));    // Output: -7
+console.log(Math.trunc(0.123));   // Output: 0
+console.log(Math.trunc(-0.123));  // Output: -0
+console.log(Math.trunc("5.5"));   // Output: 5
+console.log(Math.trunc("abc"));   // Output: NaN
+
 
