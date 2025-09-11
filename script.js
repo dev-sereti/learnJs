@@ -1,2 +1,3 @@
-const specificDate = new Date("2025-12-25T10:00:00"); // ISO 8601 format is recommended
-document.getElementById("todayDate").innerHTML=specificDate.toDateString();
+    // Year, month (0-indexed), day, hour, minute, second, millisecond
+const anotherDate = new Date(2025, 11, 25, 10, 0, 0, 0);
+document.getElementById("todayDate").innerHTML=anotherDate;
