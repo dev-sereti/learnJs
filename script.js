@@ -25,5 +25,12 @@ console.log(Math.trunc("abc"));   // Output: NaN
 /**Math.pow() */
 
 console.log(Math.pow(4,4));   // Output: 42
-console.log(Math.pow(42,84));   // Output: 42
+console.log(Math.pow(2,8));   // Output: 42
 console.log(Math.pow(-2,4));   // Output: 42
+
+
+/* Math.sign() */
+console.log(Math.sign(-2));   // Output: 42
+console.log(Math.sign(2));   // Output: 42
+
+
