@@ -1,3 +1,3 @@
     // Year, month (0-indexed), day, hour, minute, second, millisecond
-const anotherDate = new Date(2025, 11, 25, 10, 0, 0, 0);
-document.getElementById("todayDate").innerHTML=anotherDate;
+const timestampDate = new Date(1672531200000); // Represents January 1, 2023, 00:00:00 UTC
+document.getElementById("todayDate").innerHTML=timestampDate;
