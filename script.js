@@ -8,3 +8,7 @@ if(yourScore>=40){
 }else if (yourScore>=70){
   document.getElementById("score").innerHTML=("Your Grade: A");
 }
+else{
+  document.getElementById("score").innerHTML=("Your Grade: F");
+
+}
