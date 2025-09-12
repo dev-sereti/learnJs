@@ -1,4 +1,4 @@
-let yourScore=55;
+let yourScore=65;
 if(yourScore>=70){
   document.getElementById("score").innerHTML=("Your Grade: A");
 }else if(yourScore>=60){
