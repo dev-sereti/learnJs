@@ -25,4 +25,4 @@ switch (day){
   default:
     message="Huh......."
 }
-document.getElementById("")
+document.getElementById("dayOfWeek").innerHTML=(message);
