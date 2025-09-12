@@ -2,6 +2,10 @@ let day=new Date().getDay();
 let message;
 switch (day){
   case 0:
-    message="Sunday"
+    message="Sunday";
     break;
+  case 1:
+    message="Monday";
+    break;
+  
 }
