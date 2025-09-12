@@ -7,5 +7,8 @@ switch (day){
   case 1:
     message="Monday";
     break;
+  case 2:
+    message="Tuesday";
+    break;
   
 }
