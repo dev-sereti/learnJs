@@ -10,5 +10,19 @@ switch (day){
   case 2:
     message="Tuesday";
     break;
-  
+  case 3:
+    message="Wednesday";
+    break;
+  case 4:
+    message="Thursday";
+    break;
+  case 5:
+    message="Friday";
+    break;
+  case 6:
+    message = "Saturday";
+    break;
+  default:
+    message="Huh......."
 }
+document.getElementById("")
