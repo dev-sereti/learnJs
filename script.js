@@ -1,1 +1,1 @@
-let day=new Date().getDay();
+let day=new Date();
