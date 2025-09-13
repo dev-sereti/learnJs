@@ -1,4 +1,3 @@
-for(let number=0;number<=20;number++){
-  console.log(`Numbers: ${number}`);
-
-};
+for(let oddNumber=3;oddNumber<=20; oddNumber++){
+  
+}
