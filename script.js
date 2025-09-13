@@ -5,4 +5,5 @@ function countSelected(selectObject){
       numberSelected++
     }
   }
+  return numberSelected;
 }
