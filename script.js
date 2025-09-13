@@ -7,3 +7,4 @@ function countSelected(selectObject){
   }
   return numberSelected;
 }
+const btn =document.getElementById("btn");
