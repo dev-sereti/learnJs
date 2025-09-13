@@ -1,6 +1,12 @@
-for(let evenNumber=12;evenNumber>=-14;evenNumber--){
-  if(evenNumber%2==0){
-    console.log(`Even number: ${evenNumber}`);
-  }
+let i=0;
+while(i<=20);{
+  
+  console.log(`Numbers: ${i}`);
+  i++;
+}
 
+let e = 0;
+while (e <= 20) {
+  console.log(`Numbers: ${e}`);
+  e++;
 }
