@@ -8,3 +8,4 @@ console.log("Fuel level is valid" + fuelLevel);
 while (astronauts < 1 || astronauts > 7 || !Number.isInteger(astronauts)) {
   astronauts = Number(prompt("Enter number of astronauts (1 to 7):"));
 }
+console.log("Astronauts aboard: " + astronauts);
