@@ -1,6 +1,11 @@
-let numbers=3;
-do{
-  console.log(numbers);
-  numbers--;
+let text = "";
 
-}while(numbers>0);
+for (let i = 0; i < 10; i++) {
+  if (i === 3) {
+    continue;
+  }
+  text += i;
+}
+
+console.log(text);
+// Expected output: "012456789"
