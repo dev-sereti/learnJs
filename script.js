@@ -1,10 +1,12 @@
-function getArea(width,height){
-  if(isNaN(height)|| isNaN(width))
-    throw new("The paramees should be numbers");
-
+function getRectArea(width, height) {
+  if (isNaN(width) || isNaN(height)) {
+    throw new Error("Parameter is not a number!");
+  }
 }
-try{
-  getArea(3,"A");
-}catch(e){
-  console.log(e);
+
+try {
+  getRectArea(3, "A");
+} catch (e) {
+  console.error(e);
+  // Expected output: Error: Parameter is not a number!
 }
