@@ -1,0 +1,1 @@
+let fuelLeve=0,astronauts=0,altitude=0;
