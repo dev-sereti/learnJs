@@ -1,5 +1,10 @@
-// Import specific things
-import { findArea } from "./math.js";
+const person = {
+  name: "Kelvin",
+  greet: function () {
+    console.log("Hello, my name is " + this.name);
+  }
+};
 
-let area=findArea(40,80);
-console.log(area);
+person.greet(); 
+// "Hello, my name is Kelvin"
+// here, `this` → `person`
