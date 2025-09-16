@@ -6,5 +6,4 @@ const person = {
 };
 
 person.greet(); 
-// "Hello, my name is Kelvin"
-// here, `this` → `person`
+
