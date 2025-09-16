@@ -1,9 +1,5 @@
-
-
-
-
 // Import specific things
-import { add, pi } from "./math.js";
+import { findArea } from "./math.js";
 
-console.log(add(2, 3));  // 5
-console.log(pi);         // 3.14159
+let area=findArea(40,80);
+console.log(area);
