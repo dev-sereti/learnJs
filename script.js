@@ -1,9 +1,13 @@
-function Area{
-  constructor(height,width){
-    this.height=height;
-    this.width=width;
+class Person {
+  constructor(name) {
+    this.name = name; // public property
   }
-  this.findArea=function(){
-    console.log("Area is:"+ this.findArea);
-  };
-};
+
+  greet() {          // public method
+    console.log(`Hello, my name is ${this.name}`);
+  }
+}
+
+const p = new Person("Kelvin");
+console.log(p.name);  // ✅ Accessible
+p.greet();            // ✅ Accessible
