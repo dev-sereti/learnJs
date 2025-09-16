@@ -1,8 +1,8 @@
 const person = {
   name: "Kelvin",
-  greet: () => {
+  greet: function () {
     console.log("Hi, I'm " + this.name);
   }
 };
 
-person.greet(); 
+person.greet(); // "Hi, I'm Kelvin"
