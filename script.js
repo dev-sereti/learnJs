@@ -1,6 +1,9 @@
 function Area{
-  constructor(innerHeight,width){
+  constructor(height,width){
     this.height=height;
     this.width=width;
   }
-}
+  this.findArea=function(){
+    console.log("Area is:"+ this.findArea);
+  };
+};
