@@ -82,6 +82,6 @@ let today=date.toDateString();
 console.log(today);
 
 
-let x = "123";
+let x = 123;
 let number = x.toString();
 console.log(number);
