@@ -1,5 +1,4 @@
-let text1 = "Hello";
-let text2 = "World";
-let text3 = text1.concat(" ", text2);
+let text = "Apple, Banana, Kiwi";
+let part = text.slice(7,13);
 
-console.log(text3);
+console.log(part);
