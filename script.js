@@ -1,4 +1,5 @@
-let text = "HELLO WORLD";
-let code = text.codePointAt(0);
+let text1 = "Hello";
+let text2 = "World";
+let text3 = text1.concat(" ", text2);
 
-console.log(code);
+console.log(text3);
