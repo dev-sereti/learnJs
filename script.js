@@ -1,4 +1,4 @@
 let text = "HELLO WORLD";
-let char = text.charAt(0);
+let char = text.charCodeAt(0);
 
 console.log(char);
