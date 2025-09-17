@@ -64,11 +64,11 @@ console.log(c._type); // Possible, but not recommended
 // Typeof
 
 
-let length=20;
+//let length=20;
 let heights=["24","76","66","78"];
 
 
-console.log(typeof(length));
+//console.log(typeof(length));
 console.log(typeof(heights));
 
 
@@ -85,3 +85,8 @@ console.log(today);
 let x = 123;
 let number = x.toString();
 console.log(number);
+
+
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let leng = text.length;
+console.log(leng);
