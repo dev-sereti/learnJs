@@ -1,4 +1,4 @@
-let text = "Hello World \uD800";
-let result = text.toWellFormed();
+let text1 = "      Hello World!      ";
+let text2 = text1.trim();
 
-console.log(result);
+console.log(text2);
