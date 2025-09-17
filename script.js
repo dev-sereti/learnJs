@@ -70,3 +70,9 @@ let heights=["24","76","66","78"];
 
 console.log(typeof(length));
 console.log(typeof(heights));
+
+
+// toString conversion
+
+let height=heights.toString();
+console.log(height);
