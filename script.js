@@ -1,4 +1,4 @@
-let str = "Apple, Banana, Kiwi";
-let part = str.substring(7, 13);
+let text1 = "Hello World!";
+let text2 = text1.toUpperCase();
 
-console.log(part);
+console.log(text2);
