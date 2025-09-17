@@ -65,6 +65,8 @@ console.log(c._type); // Possible, but not recommended
 
 
 let length=20;
-let heights=[24,76,66,78];
+let heights=["24","76","66","78"];
+
+
 console.log(typeof(length));
 console.log(typeof(heights));
