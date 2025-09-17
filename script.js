@@ -1,4 +1,4 @@
-let text1 = "Hello World!";
-let text2 = text1.toLowerCase();
+let text = "Hello world!";
+let result = text.isWellFormed();
 
-console.log(text2);
+console.log(result);
