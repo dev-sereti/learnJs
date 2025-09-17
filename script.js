@@ -1,4 +1,4 @@
 let text = "HELLO WORLD";
-let char = text.charCodeAt(0);
+let code = text.codePointAt(0);
 
-console.log(char);
+console.log(code);
