@@ -32,7 +32,7 @@ class BankAccount {
 const account = new BankAccount();
 account.deposit(100);
 console.log(account.getBalance()); // 100
-console.log(account.#balance);     // ERROR: Private field
+//console.log(account.#balance);     // ERROR: Private field
 
 
 //Protected
@@ -65,4 +65,6 @@ console.log(c._type); // Possible, but not recommended
 
 
 let length=20;
+let heights=[24,76,66,78];
 console.log(typeof(length));
+console.log(typeof(heights));
