@@ -1,4 +1,4 @@
-let text = "Apple, Banana, Kiwi";
-let part = text.slice(0,6);
+let str = "Apple, Banana, Kiwi";
+let part = str.substring(7, 13);
 
 console.log(part);
