@@ -31,8 +31,8 @@ class BankAccount {
 
 const account = new BankAccount();
 account.deposit(100);
-console.log(account.getBalance()); // ✅ 100
-console.log(account.#balance);     // ❌ ERROR: Private field
+console.log(account.getBalance()); // 100
+console.log(account.#balance);     // ERROR: Private field
 
 
 //Protected
@@ -56,5 +56,5 @@ class Car extends Vehicle {
 }
 
 const c = new Car("Sedan");
-c.showType();    // ✅ Works: "This is a Sedan"
-console.log(c._type); // ⚠️ Possible, but not recommended
+c.showType();    // Works: "This is a Sedan"
+console.log(c._type); // Possible, but not recommended
