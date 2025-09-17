@@ -76,3 +76,7 @@ console.log(typeof(heights));
 
 let height=heights.toString();
 console.log(height);
+
+const date=new Date();
+let today=date.toDateString();
+console.log(today);
