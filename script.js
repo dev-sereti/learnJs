@@ -1,4 +1,4 @@
 let text = "Please locate where 'locate' occurs!";
-text.search("locate");
+let index = text.search("locate");
 
-console.log(index);
+console.log(index);  
