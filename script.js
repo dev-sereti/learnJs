@@ -1,4 +1,3 @@
-let text = "Please locate where 'locate' occurs!";
-let index = text.search("locate");
-
-console.log(index);  
+const fruits = [];
+fruits.push("banana", "apple", "peach");
+console.log(fruits.length);
