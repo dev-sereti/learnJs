@@ -1,6 +1,5 @@
-const numbers = [10, 20, 30, 40];
+const fruits = ["apple", "banana", "mango"];
 
-
-numbers.forEach((num, index) => {
-  console.log(`Index: ${index}, Value: ${num}`);
+fruits.forEach(fruit => {
+  console.log("I like " + fruit);
 });
