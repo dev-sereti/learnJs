@@ -1,15 +1,9 @@
 // concat()
-const fruits=["Oranges","Bananas","Apples"];
-
-const vegetables=["Kales","Spinach","Cabbage"];
-const grocery=fruits.concat(vegetables);
-console.log(grocery.toString());  
-
-
+const fruitsVeg=["Oranges","Bananas","Apples","Kales","Spinach","Cabbage"];
 
 //copyWithin()
 
 // Copy to index 0 the element at index 3
-console.log(fruits.copyWithin(0, 3, 4));
-console.log(vegetables.copyWithin(1, 3));
+console.log(fruitsVeg.copyWithin(0, 3));
+
 
