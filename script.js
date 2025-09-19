@@ -1,3 +1,4 @@
+// concat()
 const fruits=["Oranges","Bananas","Apples"];
 
 const vegetables=["Kales","Spinach","Cabbage"];
