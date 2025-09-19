@@ -1,9 +1,6 @@
-// concat()
-const fruitsVeg=["Oranges","Bananas","Apples","Kales","Spinach","Cabbage"];
+const isBelowThreshold = (currentValue) => currentValue < 40;
 
-//copyWithin()
+const array1 = [1, 30, 39, 29, 10, 13];
 
-// Copy to index 0 the element at index 3
-console.log(fruitsVeg.copyWithin(0, 3));
-
-
+console.log(array1.every(isBelowThreshold));
+// Expected output: true
