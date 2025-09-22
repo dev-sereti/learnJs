@@ -1,13 +1,6 @@
-// Accessing an element by its ID
-const paragraphElement=document.getElementById('par1');
-
-// Accessing elements by class name
-const paragraphs=document.getElementsByClassName('.par2');
-
-// Accessing elements by tag name
-const images=document.getElementsByTagName('img');
-
-//modify element content
-
-paragraphElement.innerHTML='Document Object Model (DOM) manipulation.'
-paragraphs.innerHTML='How to modify element content'
+// Common selectors
+const elById = document.getElementById('myId');          // fast, single element
+const elsByClass = document.getElementsByClassName('tag'); // live HTMLCollection
+const elsByTag = document.getElementsByTagName('li');    // live HTMLCollection
+const qs = document.querySelector('.my-class');         // first match
+const qsa = document.querySelectorAll('ul > li');       // static NodeList (forEach works)
