@@ -16,6 +16,22 @@
   <li data-id="1">one</li>
   <li data-id="2">two</li>
 </ul>
+<!-- index.html -->
+<button id="helloBtn">Say hi</button>
+<p id="greeting">...</p>
+
+<script>
+  // Wait until DOM is ready (script at end of body would also work)
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('helloBtn');
+    const p = document.getElementById('greeting');
+
+    btn.addEventListener('click', () => {
+      // Use textContent to avoid XSS
+      p.textContent = 'Hello — you clicked the button!';
+    });
+  });
+</script>
 
 
 </body>
