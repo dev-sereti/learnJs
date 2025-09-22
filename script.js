@@ -4,3 +4,5 @@ const headerElement=document.getElementById('header');
 // Accessing elements by class name
 const paragraphs=document.getElementsByClassName('paragraph');
 
+// Accessing elements by tag name
+const images=document.getElementsByTagName('img');
