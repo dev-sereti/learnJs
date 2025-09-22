@@ -1,6 +1,8 @@
+el.classList.add('open');      // add
+el.classList.remove('open');   // remove
+el.classList.toggle('open');   // toggle
+el.classList.contains('foo');  // check
 
-
-
-const card = document.getElementById('card');
-console.log(card.dataset.userName); // "kelvin"
-card.dataset.status = 'active';     // sets data-status="active"
+// styles
+el.style.backgroundColor = 'salmon';
+const cs = getComputedStyle(el); // read computed styles (read-only)
