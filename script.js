@@ -1,6 +1,5 @@
-// Common selectors
-const elById = document.getElementById('myId');          // fast, single element
-const elsByClass = document.getElementsByClassName('tag'); // live HTMLCollection
-const elsByTag = document.getElementsByTagName('li');    // live HTMLCollection
-const qs = document.querySelector('.my-class');         // first match
-const qsa = document.querySelectorAll('ul > li');       // static NodeList (forEach works)
+// Create and append safely
+const li = document.createElement('li');         // create element
+li.textContent = 'Buy milk';                      // safe text insertion
+li.setAttribute('data-id', '42');                 // set attribute
+document.getElementById('tasks').appendChild(li); // append to DOM
