@@ -6,3 +6,6 @@ const paragraphs=document.getElementsByClassName('paragraph');
 
 // Accessing elements by tag name
 const images=document.getElementsByTagName('img');
+
+//modify element content
+
