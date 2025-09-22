@@ -5,3 +5,8 @@ for (let i = 0; i < 1000; i++) {
   frag.appendChild(li);
 }
 document.getElementById('bigList').appendChild(frag);
+
+
+const card = document.getElementById('card');
+console.log(card.dataset.userName); // "kelvin"
+card.dataset.status = 'active';     // sets data-status="active"
