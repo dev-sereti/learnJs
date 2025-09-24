@@ -1,5 +1,5 @@
-let fruits = ["Apple", "Orange"];
+let fruits = ["Apple", "Orange", "Pear"];
 
-fruits.push("Pear");
+alert( fruits.shift() ); // remove Apple and alert it
 
-alert( fruits ); // Apple, Orange, Pear
+alert( fruits ); // Orange, Pear
