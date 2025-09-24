@@ -1,5 +1,7 @@
-let fruits = ["Orange", "Pear"];
+let fruits = ["Apple"];
 
-fruits.unshift('Apple');
+fruits.push("Orange", "Peach");
+fruits.unshift("Pineapple", "Lemon");
 
-alert( fruits ); // Apple, Orange, Pear
+// ["Pineapple", "Lemon", "Apple", "Orange", "Peach"]
+alert( fruits );
