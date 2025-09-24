@@ -1,6 +1,5 @@
-let str = "123";
-alert(typeof str); // string
+alert( Boolean(1) ); // true
+alert( Boolean(0) ); // false
 
-let num = Number(str); // becomes a number 123
-
-alert(typeof num); // number
+alert( Boolean("hello") ); // true
+alert( Boolean("") ); // false
