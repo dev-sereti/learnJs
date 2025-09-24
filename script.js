@@ -1,5 +1,8 @@
-alert( Boolean(1) ); // true
-alert( Boolean(0) ); // false
+// mix of values
+let arr = [ 'Apple', { name: 'John' }, true, function() { alert('hello'); } ];
 
-alert( Boolean("hello") ); // true
-alert( Boolean("") ); // false
+// get the object at index 1 and then show its name
+alert( arr[1].name ); // John
+
+// get the function at index 3 and run it
+arr[3](); // hello
