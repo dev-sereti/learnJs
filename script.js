@@ -1,8 +1,5 @@
-// mix of values
-let arr = [ 'Apple', { name: 'John' }, true, function() { alert('hello'); } ];
+let fruits = ["Apple", "Orange", "Pear"];
 
-// get the object at index 1 and then show its name
-alert( arr[1].name ); // John
+alert( fruits.pop() ); // remove "Pear" and alert it
 
-// get the function at index 3 and run it
-arr[3](); // hello
+alert( fruits ); // Apple, Orange
