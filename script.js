@@ -1,7 +1,9 @@
-let fruits = ["Apple"];
+let fruits = ["Banana"]
 
-fruits.push("Orange", "Peach");
-fruits.unshift("Pineapple", "Lemon");
+let arr = fruits; // copy by reference (two variables reference the same array)
 
-// ["Pineapple", "Lemon", "Apple", "Orange", "Peach"]
-alert( fruits );
+alert( arr === fruits ); // true
+
+arr.push("Pear"); // modify the array by reference
+
+alert( fruits ); // Banana, Pear - 2 items now
