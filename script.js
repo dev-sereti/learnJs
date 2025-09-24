@@ -6,6 +6,6 @@ function carModels(carObject){
         model:"Axela",
         year:2017,
     };
-    
+    console.log(myCar.make);
 
 }
