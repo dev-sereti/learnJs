@@ -1,10 +1,9 @@
-let text = "";
+let result = "";
+let i = 0;
 
-for (let i = 0; i < 10; i++) {
-  if (i === 3) {
-    break;
-  }
-  text += i;
-}
+do {
+  i += 1;
+  result += i;
+} while (i < 5);
 
-console.log(text);
+console.log(result);
