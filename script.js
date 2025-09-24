@@ -1,5 +1,5 @@
-let fruits = ["Apple", "Orange", "Pear"];
+let fruits = ["Apple", "Orange"];
 
-alert( fruits.pop() ); // remove "Pear" and alert it
+fruits.push("Pear");
 
-alert( fruits ); // Apple, Orange
+alert( fruits ); // Apple, Orange, Pear
