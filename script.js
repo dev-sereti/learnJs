@@ -1,4 +1,5 @@
-const myCars =["Mazda","BMW","Benz"];
-for(const element of myCars){
-  console.log(element.toString());
+const ages=[11,20,40,88];
+for(value of ages){
+  value++;
+  console.log(value);
 }
