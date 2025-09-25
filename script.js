@@ -1,0 +1,1 @@
+const myCars =["Mazda","BMW","Benz"];
